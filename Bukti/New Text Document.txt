@@ -1,0 +1,13 @@
+Tugas: Tuliskan pesan error/peringatan yang muncul di terminal saat terjadi conflict
+PS D:\Tugas Rizal XI RPL 1\LKPD_6> git merge main
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+Kasus 1: Saat terjadi conflict, Budi panik. Ia ingin membatalkan proses merge yang sedang
+bermasalah agar Kembali ke posisi aman sebelum merge. Perintah Git apa yang harus ia gunakan?
+= Budi harus mengetik Git merge --abort di git bash/terminal untuk membatalkan merge yang akan dilakukan 
+
+Kasus 2: Apakah merge conflict selalu berarti ada anggota tim yang melakukan kesalahan (error)?
+Jelaskan alasannya berdasarkan simulasi yang baru saja kalian lakukan!
+= Tidak selalu karena dari simulasi yang kita lakukan, bisa jadi dua hal tersebut merupakan perubahan yang baik hanya perubahannya di tempat yang sama dan membutuhkan observasi yang jelas
